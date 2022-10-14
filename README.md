@@ -21,3 +21,19 @@ Infrastructure requirements:
 ### Overview
 
 ![File Storage API](./documents/file-storage-api.png)
+
+![File Storage API Entities](./documents/file-storage-api-entities.png)
+
+### Code Structure
+
+1. solutions
+    - deployment -> deployment scripts, dockerfiles, k8s, ...
+2. src
+- src/share -> Share/Common projects
+- src/domain -> Tables mapping
+- src/persistences -> TypeORM Core
+- src/businesses -> Business logic
+- src/application -> applications: file-storage-api, web, queues, ...
+- src/tool -> tools: migration data
+
+3. test -> test configuration
