@@ -17,3 +17,7 @@ Infrastructure requirements:
 1. Local : Local Docker
 2. Staging: Run on VM with Docker
 3. Production: Host everything on AWS
+
+### Overview
+
+![File Storage API](./documents/file-storage-api.png)
