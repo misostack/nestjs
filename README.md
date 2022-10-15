@@ -24,6 +24,8 @@ Infrastructure requirements:
 
 ![File Storage API Entities](./documents/file-storage-api-entities.png)
 
+![File Storage API Endpoints](./documents/file-storage-api-endpoints.png)
+
 ### Code Structure
 
 1. solutions
