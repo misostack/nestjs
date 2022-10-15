@@ -50,7 +50,7 @@ npm install
 2. Watch
 
 ```bash
-npm run start:dev
+npm run start:api:dev
 ```
 
 3. Debug
@@ -64,7 +64,7 @@ F5 -> Select Debug API
 Example: Start app in debug mode - debugger port 9229
 
 ```bash
-npm run start:debug
+npm run start:api:debug
 ```
 
 F5 -> Select Debug remote API
