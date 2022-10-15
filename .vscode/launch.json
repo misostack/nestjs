@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "name": "Debug API",
+      "type": "node",
+      "program": "${workspaceFolder}/src/application/api/main.ts",
+      "runtimeArgs": [
+        "-r",
+        "ts-node/register",
+        "-r",
+        "tsconfig-paths/register"
+      ],
+      "console": "integratedTerminal",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "outFiles": ["${workspaceFolder}/**/*.js", "!**/node_modules/**"]
+    },
+    {
+      "name": "Debug remote api",
+      "type": "node",
+      "request": "attach",
+      "remoteRoot": "/src/application/api/",
+      "localRoot": "${workspaceFolder}",
+      "port": 9229,
+      "restart": true,
+      "address": "0.0.0.0",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

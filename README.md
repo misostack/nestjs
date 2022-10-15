@@ -27,13 +27,44 @@ Infrastructure requirements:
 ### Code Structure
 
 1. solutions
-    - deployment -> deployment scripts, dockerfiles, k8s, ...
+   - deployment -> deployment scripts, dockerfiles, k8s, ...
 2. src
+
 - src/share -> Share/Common projects
 - src/domain -> Tables mapping
-- src/persistences -> TypeORM Core
-- src/businesses -> Business logic
+- src/persistence -> TypeORM Core
+- src/business -> Business logic
 - src/application -> applications: file-storage-api, web, queues, ...
 - src/tool -> tools: migration data
 
 3. test -> test configuration
+
+### Development
+
+1. Install
+
+```bash
+npm install
+```
+
+2. Watch
+
+```bash
+npm run start:dev
+```
+
+3. Debug
+
+3.1. Debug main app (file storage api)
+
+F5 -> Select Debug API
+
+3.2. Debug remote
+
+Example: Start app in debug mode - debugger port 9229
+
+```bash
+npm run start:debug
+```
+
+F5 -> Select Debug remote API
