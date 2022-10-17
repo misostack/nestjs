@@ -28,18 +28,31 @@ Infrastructure requirements:
 
 ### Code Structure
 
+**Overview layers**
+
+![File Storage API clean architecture layer](./documents/file-storage-api-clean-architecture.png)
+
 1. solutions
    - deployment -> deployment scripts, dockerfiles, k8s, ...
 2. src
 
-- src/share -> Share/Common projects
-- src/domain -> Tables mapping
-- src/persistence -> TypeORM Core
-- src/business -> Business logic
 - src/application -> applications: file-storage-api, web, queues, ...
+- src/domain -> Tables mapping
+- src/business -> Business logic
+- src/share -> Share/Common projects
+- src/persistence -> TypeORM Core
 - src/tool -> tools: migration data
 
 3. test -> test configuration
+
+**domain layer**
+![File Storage API business layer](./documents/file-storage-api-domain-layer.png)
+
+**application layer**
+![File Storage API application layer](./documents/file-storage-api-application-layer.png)
+
+**business layer**
+![File Storage API business layer](./documents/file-storage-api-application-layer.png)
 
 ### Development
 
