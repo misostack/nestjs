@@ -1,5 +1,4 @@
 import { MYSQL_DB_URI } from '@config/environment';
-import 'reflect-metadata';
 import { DataSource } from 'typeorm';
 import entities from './entities';
 

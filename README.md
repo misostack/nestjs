@@ -46,15 +46,24 @@ Infrastructure requirements:
 3. test -> test configuration
 
 **domain layer**
+
 ![File Storage API business layer](./documents/file-storage-api-domain-layer.png)
 
 **application layer**
+
 ![File Storage API application layer](./documents/file-storage-api-application-layer.png)
 
 **business layer**
-![File Storage API business layer](./documents/file-storage-api-application-layer.png)
+
+![File Storage API business layer](./documents/file-storage-api-business-layer.png)
 
 **persistence layer**
+
+![File Storage API persistence layer](./documents/file-storage-api-persistence-layer.png)
+
+**config layer**
+
+![File Storage API config layer](./documents/file-storage-api-config-layer.png)
 
 ### Development
 

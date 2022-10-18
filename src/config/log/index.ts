@@ -1,6 +1,6 @@
 import { ConsoleLogger, Optional } from '@nestjs/common';
-import dayjs from 'dayjs';
-import utc from 'dayjs/plugin/utc';
+import * as dayjs from 'dayjs';
+import * as utc from 'dayjs/plugin/utc';
 import {
   configure,
   getLogger,
