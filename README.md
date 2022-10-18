@@ -54,6 +54,8 @@ Infrastructure requirements:
 **business layer**
 ![File Storage API business layer](./documents/file-storage-api-application-layer.png)
 
+**persistence layer**
+
 ### Development
 
 1. Install
@@ -83,3 +85,27 @@ npm run start:api:debug
 ```
 
 F5 -> Select Debug remote API
+
+### Database
+
+> generate migration script
+
+```bash
+npm run typeorm:migration:generate ./src/persistence/database/migrations/migration-script-name
+```
+
+> create migration script
+
+```bash
+npm run typeorm:migration:create ./src/persistence/database/migrations/migration-script-name
+```
+
+> show migration
+
+```bash
+npm run typeorm migration:show
+npm run typeorm migration:run
+npm run typeorm migration:revert
+```
+
+>
