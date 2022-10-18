@@ -10,6 +10,13 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
+    "paths": {
+      "@application/*": ["src/application/*"],
+      "@business/*": ["src/business/*"],
+      "@config/*": ["src/config/*"],
+      "@domain/*": ["src/domain/*"],
+      "@persistence/*": ["src/persistence/*"]
+    },
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": false,
