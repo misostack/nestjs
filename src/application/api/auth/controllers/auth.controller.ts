@@ -7,7 +7,11 @@ export class AuthController {
   @Get('')
   async index() {
     console.log(this.exampleRepository);
-    const example = await this.exampleRepository.findOne();
+    const example = await this.exampleRepository.findOne({
+      where: {
+        id: 1,
+      },
+    });
     Logger.error('test auth log', example);
     return { example };
   }
