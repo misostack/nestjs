@@ -6,7 +6,6 @@ export class AuthController {
   constructor(private readonly exampleRepository: ExampleRepository) {}
   @Get('')
   async index() {
-    console.log(this.exampleRepository);
     const example = await this.exampleRepository.findOne({
       where: {
         id: 1,

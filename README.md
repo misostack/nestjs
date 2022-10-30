@@ -117,4 +117,34 @@ npm run typeorm migration:run
 npm run typeorm migration:revert
 ```
 
->
+### Application Layer Implementation
+
+Let's assume that we already have the below high level design diagrams
+
+**Response & Response**
+
+![Response & Response](./documents/file-storage-api-design-examples-request-response.png)
+
+**Create Example**
+
+![Create Example](./documents/file-storage-api-design-examples-create.png)
+
+**List Example**
+
+![List Example](./documents/file-storage-api-design-examples-list.png)
+
+**Update Example**
+
+![Update Example](./documents/file-storage-api-design-examples-update.png)
+
+**Delete Example**
+
+![Delete Example](./documents/file-storage-api-design-examples-delete.png)
+
+**Dataset List**
+
+![List Dataset](./documents/file-storage-api-design-dataset-list.png)
+
+## Tools
+
+- [Using Visual Paradigm Design your API](https://www.visual-paradigm.com/solution/rest-api-design-tool/)
